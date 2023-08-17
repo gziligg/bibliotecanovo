@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: linear-gradient(300deg, rgb(177, 218, 232), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(223, 242, 252, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgb(180, 208, 212), rgba(0,0,255,0) 70.71%);
+min-height: 100vh;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    z-index: 100;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #0081B8;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: larger;
+    transition: all 0.5s ease;
+}
+
+.navigation a:hover {
+    background-color: #c5deff;
+    color: #0081B8;
+
+}
+
+.navigation h3 {
+    font-size: 2em;
+    color: #0081B8;
+    pointer-events: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.case1 {
+    max-width: 1500px;
+    min-width: 1500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.usuario {
+    padding-left: 225px;
+    padding-right: 225px;
+    max-width: 225px;
+    margin: 5px 25px 5px 5px;
+    background-image: linear-gradient( to right, #586470, #6a7380, rgb(127, 133, 139), rgb(143, 148, 153));
+    border-radius: 10px;
+    display: flex;
+    
+    transition: all 0.5s;
+    
+}
+
+.livro_cadastrados {
+    padding-left: 225px;
+    padding-right: 225px;
+    max-width: 225px;
+    margin: 5px 25px 5px 5px;
+    background-image: linear-gradient( to right, #2E8B57, #33975f, #39b16f, #43cc80);
+    border-radius: 10px;
+    display: flex;
+
+    transition: all 0.5s;
+}
+
+.livros_disponíveis {
+    padding-left: 225px;
+    padding-right: 225px;
+    max-width: 225px;
+    margin: 5px 25px 5px 5px;
+    background-image: linear-gradient( to right, #ddaf5a, #e0b668, #ecc781, #eecc8d);
+    border-radius: 10px;
+    display: flex;
+
+    transition: all 0.5s;
+}
+
+.livros_disponíveis:hover {
+    transform: scale(1.1);
+}
+
+.livro_cadastrados:hover {
+    transform: scale(1.1);
+}
+
+.usuario:hover {
+    transform: scale(1.1);
+}
+
+.multas:hover {
+    transform: scale(1.1);
+}
+
+.generos:hover {
+    transform: scale(1.1);
+}
+
+.livros_emprestados:hover {
+    transform: scale(1.1);
+}
+
+.case2 {
+    max-width: 1500px;
+    min-width: 1500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.multas {
+    padding-left: 225px;
+    padding-right: 225px;
+    max-width: 225px;
+    margin: 5px 25px 5px 5px;
+    background-image: linear-gradient( to right, rgb(83, 164, 214), rgb(97, 174, 221), rgb(116, 192, 240), rgb(147, 212, 252));
+    border-radius: 10px;
+    display: flex;
+
+    transition: all 0.5s;
+}
+.generos {
+    padding-left: 225px;
+    padding-right: 225px;
+    max-width: 225px;
+    margin: 5px 25px 5px 5px;
+    background-image: linear-gradient( to right, #d65353, #d65353, #eb6969, #f9a1a1);
+    background-color: rgb(253, 84, 84);
+    border-radius: 10px;
+    display: flex;
+
+    transition: all 0.5s;
+}
+
+.livros_emprestados {
+    padding-left: 225px;
+    padding-right: 225px;
+    max-width: 225px;
+    margin: 5px 25px 5px 5px;
+    background-image: linear-gradient( to right, #ad53d6, #ad53d6, #c269eb, #e5affd);
+    border-radius: 10px;
+    display: flex;
+
+    transition: all 0.5s;
+}
+
+.search-box a {
+    margin-left: 15px;
+    margin-top: 15px;
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    right: 220px;
+}
+
+.search-box h3 {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+    right: 220px;
+}
+
+.search-box p {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    right: 220px;
+}
+
+.search-box2 a {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    position: relative;
+    right: 220px;
+}
+
+.search-box2 h3 {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+    right: 220px;
+}
+
+.search-box2 p {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    right: 220px;
+}
+.container1 {
+    padding-right: 100px;
+    
+
+}
+
+h2 {
+    color:#aaa;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+.in {
+    display: block;
+    border: 2px solid #aaa;
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+.in:hover {
+    border-color: #0081B8;
+} 
+.in:focus{
+    outline-color: #0081B8;
+} 
+
+.in2 {
+    display: block;
+    border: 2px solid #aaa;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+.in2:hover {
+    border-color: #0081B8;
+} 
+.in2:focus{
+    outline-color: #0081B8;
+}  
+
+.ino {
+    display: flex;
+    border: 2px solid #aaa;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 100px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+.ino:hover {
+    border-color: #0081B8;
+} 
+.ino:focus{
+    outline-color: #0081B8;
+}  
+
+.lin {
+    float: left;
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    width: 200px;
+    padding: 10px 15px;
+    background-color: #bbb;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.lin:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+.ininn {
+    text-decoration: none;
+    color: #0081B8;
+}
+
+label {
+    color: #aaa;
+}
+
+.addlivro {
+    display: flex;
+    justify-content: left;
+    height: 80vh;
+    width: 98%;
+    align-items: stretch;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #bbb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+input[type="file"]::-webkit-file-upload-button:active {
+    background-color: #888;
+    color: #fff;
+}
+
+#picture__input {
+    display: none;
+  }
+  
+.picture {
+    margin-left: 10px;
+    width: 200px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+}
+
+.picture:hover {
+    color: #777;
+    background: #ccc;
+}
+
+.picture:active {
+    border-color: turquoise;
+    color: turquoise;
+    background: #eee;
+}
+
+.picture:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.picture__img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+td,
+th {
+    padding: 10px;
+    color:  #aaa;
+    font-size: 21px;
+    border: 1px solid #ddd;
+}
+
+td.options {
+    text-align: right;
+}
+
+.bun {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 85%;
+}
+
+.bun1 {
+    border: 2px solid #aaa;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.bun2 {
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    transition: 0.3s;
+}
+
+.bun2:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}

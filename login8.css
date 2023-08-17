@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #eee, #9ac4d6 , #65a8c4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.loginn {
+    width: 380px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5%;
+}
+
+.cadin {
+    width: 750px;
+    background-color: rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5%;
+}
+
+.cadin .cr {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #0081B8;
+}
+
+.cadin .cr:hover {
+    text-decoration: underline;
+}
+
+.loginn .cr {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #0081B8;
+}
+
+.loginn .cr:hover {
+    text-decoration: underline;
+}
+
+.non2{
+    display: block;
+    padding-left: 50px;
+}
+
+.non1{
+    display: flex;
+}
+
+.cadin h2 {
+    color: #0081B8;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.loginn h2 {
+    color:#0081B8;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input {
+    display: block;
+    border: 1px solid #0081B8;
+    width: 300px;
+    height: 55px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input:hover {
+    border: 1px solid #0081B8;
+} 
+input:focus{
+    outline-color: #0081B8;
+}
+
+select {
+    display: block;
+    border: 1px solid #0081B8;
+    width: 300px;
+    height: 55px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: rgb(121, 121, 121);
+}
+
+select:hover {
+    border: 1px solid #0081B8;
+}
+
+select:focus {
+    outline-color: #0081B8;
+}
+
+button {
+    float: right;
+    font-size: 15px;
+    width: 100px;
+    padding: 10px 15px;
+    color: rgb(121, 121, 121);
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+button:hover {
+    float: right;
+    font-size: 15px;
+    width: 100px;
+    padding: 10px 15px;
+    background-color: #0081B8;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+label {
+    color: #0081B8;
+}
+
+#cad {
+    display: none;
+}
+
+.dio {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(230, 70, 70);
+    color: #fff;
+}

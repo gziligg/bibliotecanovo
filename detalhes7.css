@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin-left: 20px;
+  background: linear-gradient(300deg, rgb(177, 218, 232), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(223, 242, 252, 0.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgb(180, 208, 212), rgba(0,0,255,0) 70.71%);
+min-height: 100vh;
+}
+	
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.livro-imagem {
+  max-width: 400px;
+  max-height: 500px;
+}
+
+h1, h2 {
+  color: #002352;
+  margin-top: 10px;  
+  margin-bottom: 10px;
+}
+
+p {
+  color: #0081B8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.livros-container {
+  width: auto;
+  min-width: 800px;
+  height: auto;
+  min-height: 200px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #888888;
+
+}
+
+.livros-container2 {
+  margin-left: 20px;
+  width: 530px;
+  min-height: 200px;
+}
+.livros-container3 {
+  margin-left: 115px;
+  width: 530px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.livros-container4 {
+  margin-left: 20px;
+  display: flex;
+}
+
+.avaliacao{
+  display: flex;
+  padding: 0px;
+
+}
+  
+.star-icon{
+  list-style-type: none;
+  cursor: pointer;
+  color: #d9c40b;
+  font-size: 40px;
+}
+.star-icon::before{
+  content: "\2605";
+}
+.star-icon.ativo ~ .star-icon::before{
+  content: "\2606";
+}
+.avaliacao:active .star-icon::before{
+  content: "\2605";
+}
+.star-icon:active ~ .star-icon::before{
+  content: "\2606";
+}
+
+.benn{
+  text-decoration: none;
+  background-color: #0081B8;
+  color: #fff;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.benn:hover{
+  background-color: #c7dde6;
+  color: #0081B8;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+}
+
+.sucesso{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: darkgreen;
+  padding: 10px;
+  color: #fff;
+}
+
+.erro{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgb(221, 91, 91);
+  padding: 10px;
+  color: #fff;
+}
+
